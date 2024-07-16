@@ -36,4 +36,9 @@ view: pylookml {
   measure: count {
     type: count
   }
+
+}
+
+view: flat {
+
 }
