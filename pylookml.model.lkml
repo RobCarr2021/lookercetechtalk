@@ -36,10 +36,10 @@ view: pylookml {
 view: flat {
   derived_table: { explore_source: _eav_flattener { 
     column: user_id {     field: _eav_flattener.user_id }
-    column: eye_color {     field: _eav_flattener.eye_color }
-    column: age {     field: _eav_flattener.age }
     column: height {     field: _eav_flattener.height }
-    column: name {     field: _eav_flattener.name } } }
+    column: eye_color {     field: _eav_flattener.eye_color }
+    column: name {     field: _eav_flattener.name }
+    column: age {     field: _eav_flattener.age } } }
   
   
   dimension: age { 
